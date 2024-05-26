@@ -1,0 +1,98 @@
+<!DOCTYPE html>
+<html language="es">
+    <head>
+
+        <meta charset="iso-8559-1"/>
+        <meta name="description" content="Pagina de enseñanza html5"/>
+        <meta name="keywords" content="html5, css3, Javascript, diseño web"/>
+    
+        <title>Tercera Pagina Derallorro Web CUN</title>
+
+        <link rel="stylesheet" href="../mihojadeestilos.css"/>        
+
+<style>
+
+#tituloprinci{  
+/*width es el espacio de ancho que va a tener el bloque*/
+    width:500px; 
+/*background-color asigna el color al boque*/
+    background-color: chartreuse; 
+/*text-align-Centra el texto*/
+    text-align: center; 
+/*margin: 15px auto- deja un margen del bloque, de 15 px por todos los lados*/
+    margin: 15px auto; 
+/*padding: 15px - alinea el texto dejando margen de 15 px por todos los lados*/
+    padding: 15px; 
+/*border: 3px solid red; - Crea un borde redondo en las esquinas del bloque, color rojo*/
+    border: 3px solid red;
+/*border-radius: 5px; - Crea un borde redondo en las esquinas del bloque*/
+    border-radius: 5px;
+/*box-shadow: gray 5px 5px; - Crea un sombreado para la caja*/
+    box-shadow: gray 5px 5px;
+/*background: -webkit-linear-gradient(); para colorear forma degradado el bloque
+moz mozilla, webkit chrome, ws internet explorer, o opera. bottom se puede cambiar por left o right*/
+    background: -moz-linear-gradient(bottom, blue, chartreuse);
+    background: -webkit-linear-gradient(bottom, blue, chartreuse);
+    background: -ws-linear-gradient(bottom, blue, chartreuse);
+    background: -o-linear-gradient(bottom, blue, chartreuse);
+    -webkit-transition:-webkit-transform 1s ease 0.5s;
+}
+
+
+/*pseudo clases. Cuando se situe el mouse sobre el titulo esta va a tener un movimiento de rotacion*/
+#tituloprinci:hover{
+-webkit-transform:rotate(5deg);
+}
+
+
+#titulo{
+    font:bold 34px Arial;
+/*text-shadow: green 5px 5px; - Crea un sombreado para el texto*/
+    text-shadow: green 5px 5px 5px;
+}
+/*[name^="mise"]{color: blueviolet;} - Todas la etiquetas p con conincidencia "mise" seran color violeta*/
+p[name^="mise"]{color: blueviolet;}
+</style>    
+
+</head>    
+
+<body>
+    <header id="tituloprinci">
+    <span id="titulo">EVALUACIONES</span>
+
+    </header>
+    <p name="misejemplo">Este mensaje es de etiqueta style ^ color violeta</p>
+
+    <h1 name="mise">Aquí vamos a evaluar tus conocimientos sobre programación web. Tienes una oportunidad y para pasar debes tener un puntaje mayor a 7 sobre 10.  Al finalizar te diremos en que fallaste y tendrás una retroalimentación.
+    </h1>
+
+    
+		<img src= "../Imagenes/cuaderno_eval.svg"/>
+		<margin: 15px auto;/>
+        <figcaption>
+		Evaluacion 1
+		</figcaption>
+        
+        <img src= "../Imagenes/cuaderno_eval.png"/>
+		<margin: 15px auto;/>
+        <figcaption>
+		Evaluacion 2
+		</figcaption>
+
+        <img src= "../Imagenes/cuaderno_eval.png"/>
+		<margin: 15px auto;/>
+        <figcaption>
+		Evaluacion 3
+		</figcaption>
+	</figure>
+
+    <footer id="pieprincipal">
+        <address>Contactame Email eduardo.pardo@cun.edu.co - Telófono: 315 302 81 20</address>
+        Ingenieria de sistemas CUN
+        <p>Versión 1.0</p>
+        </footer>
+        
+</body>
+
+
+</html>

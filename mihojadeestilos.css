@@ -1,0 +1,61 @@
+:root {
+    --referencia_imagen: #2BD4E0;
+    --cabeceraprincipal_fondocaja: #1B24E0;
+    --barranavegador_fondocaja: #E3D4C4;
+    --cabecerasecundarias_fondocaja: #2CD4C4;
+    --piepagina: #C12BE0;
+    --fondocajacontenido: #2B9853;
+    --listas: #D19853;
+    --Titulos_principal: #F1ECE8;
+    --Titulos_secundarios: #F3E5A4;
+}
+/*DEFINICION DE LAS CLASES*/
+
+.titulo_principal {
+    text-align:center;
+    font-size: 4rem;
+    color: var(--Titulos_principal);
+}
+
+.titulo_secundario {
+    text-align: left;
+    font-size: 1.5rem;
+    color: var(--Titulos_secundarios);
+}
+
+/*DEFINICION DE LOS ID*/
+#imagenprincipal {
+    background-color: var(--referencia_imagen);
+    float: left;
+    height: 145px;
+}
+#cabecerawebprincipal {
+    background-color: var(--cabeceraprincipal_fondocaja);
+    padding-top: 50px;
+}
+#barranavegadorprincipal {
+    background-color: var(--barranavegador_fondocaja);
+    padding-left: 200px;
+}
+#barraconoceme {
+    background-color: var(--cabecerasecundarias_fondocaja);
+    margin-top: 50px;
+}
+#barraestudiante {
+    background-color: var(--cabecerasecundarias_fondocaja);
+    margin-top: 50px;
+}
+#barraservicios {
+    background-color: var(--cabecerasecundarias_fondocaja);
+    margin-top: 50px;
+}
+#contenidoprincipal{
+    background-color: var(--fondocajacontenido)
+}
+#pieprincipal{
+    background-color: var(--piepagina)
+}
+li {
+    background-color: var(--listas)
+    display: inline;
+}
